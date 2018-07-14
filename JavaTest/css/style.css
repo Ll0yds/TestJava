@@ -1,0 +1,25 @@
+.wrapper {
+display: flex;
+}
+/* Chevron = enfant direct (les autres divs sous enfants ne seront pas affectés) */
+.wrapper > div {
+  font-size: 4vh;
+  color: white;
+  background: hotpink;
+  margin: .1em;
+  padding: .3em;
+  border-radius: 3px;
+  flex: 1;
+}
+.wrapper .wrapper > div {
+  background: pink;
+  color: hotpink;
+}
+
+
+img {
+  width: 3vw;
+}
+
+
+
